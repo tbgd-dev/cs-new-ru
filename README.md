@@ -1,1 +1,1 @@
-# cs-new-ru
+# cs-new-jp

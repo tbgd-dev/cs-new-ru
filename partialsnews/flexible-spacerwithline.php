@@ -1,0 +1,2 @@
+<section class="home-spacer <?php the_sub_field('show_keyline'); ?> <?php the_sub_field('padding_top'); ?> <?php the_sub_field('padding_bottom'); ?> <?php the_sub_field('hide_from_mobile'); ?>" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+</section>
