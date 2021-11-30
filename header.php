@@ -84,8 +84,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         USD $ </a>
                     <a class="flag flag-eu" href="https://www.czechandspeake.com/eu/fragrance/">
                         EUR € </a>
-                        <a class="flag flag-jp" href="https://www.czechandspeake.com/jp/fragrance/">
-                        YEN ¥ </a>
+                        <a class="flag flag-jp" href="https://www.czechandspeake.com/ru/fragrance/">
+                        RUB ₽ </a>
                     <span class="close-lan">CLOSE</span>
                 </div>
             </div>
@@ -138,16 +138,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="pre-mega">
                             <div><a href="<?php echo get_bloginfo('url') ?>/rewards-club/"><img src="<?php echo get_bloginfo('url') ?>/wp-content/themes/storefront-child-C%26S/images/88-l-club.svg" alt="Loyalty Club" /></a>
                             </div>
-                            <div><a href="https://www.czechandspeake.com/jp/fragrance/press/">メディア掲載</a>
+                            <div><a href="https://www.czechandspeake.com/ru/fragrance/press/">Press</a>
                             </div>
-                            <div><a href="https://www.czechandspeake.com/jp/fragrance/journal/">ジャーナル</a> </div>
+                            <div><a href="https://www.czechandspeake.com/ru/fragrance/journal/">Journal</a> </div>
                         </div>
                     <?php } else { ?>
                         <div class="pre-mega">
-                            <div><a href="https://www.czechandspeake.com/jp/fragrance/press/">メディア掲載</a>
+                            <div><a href="https://www.czechandspeake.com/ru/fragrance/press/">Press</a>
                             </div>
-                            <div><a href="https://www.czechandspeake.com/jp/fragrance/journal/">ジャーナル</a> </div>
-                            <div><a href="https://www.czechandspeake.com/jp/fragrance/contact/">Contact</a>
+                            <div><a href="https://www.czechandspeake.com/ru/fragrance/journal/">Journal</a> </div>
+                            <div><a href="https://www.czechandspeake.com/ru/fragrance/contact/">Contact</a>
                             </div>
                         </div>
                     <?php } ?>
@@ -167,15 +167,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         USD $ </a>
                     <a class="flag" href="https://www.czechandspeake.com/eu/fragrance/"><span class="cs-flag flag-nested flag-eu"></span>
                         EUR € </a>
-                        <a class="flag" href="https://www.czechandspeake.com/jp/fragrance/"><span class="cs-flag flag-nested flag-jp"></span>
-                        YEN ¥ </a>
+                        <a class="flag" href="https://www.czechandspeake.com/ru/fragrance/"><span class="cs-flag flag-nested flag-jp"></span>
+                        RUB ₽ </a>
                 </div>
                 </div>
                 <?php global $current_user; wp_get_current_user(); ?>
                 <?php if (!is_user_logged_in()) :?>
-                    <div class="header-account" style="opacity: 0;pointer-events: none;"><a href="<?php echo get_bloginfo('url') ?>/my-account/" class="header-account-first"></a></div>
+                    <div class="header-account"><a href="<?php echo get_bloginfo('url') ?>/my-account/" class="header-account-first"></a></div>
                     <?php else : ?>
-                        <div class="header-account" style="opacity: 0;pointer-events: none;"><div class="header-account-first">&nbsp;
+                        <div class="header-account"><div class="header-account-first">&nbsp;
                         <div class="header-account-menu"><p>Welcome: <?php echo $current_user->display_name; ?></p>
                         <button type=button onClick="location.href='<?php echo get_bloginfo('url') ?>/my-account/edit-account/'">Details &amp; Password</button>
                         <button type=button onClick="location.href='<?php echo get_bloginfo('url') ?>/my-account/edit-address/'">Address Book</button>
@@ -221,11 +221,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="mega-navbar"><a href="#">Aromatic</a><a href="https://www.czechandspeake.com/bathrooms/">Bathrooms</a></div>
                 
                     <ul id="menu">
-                    <li><a href="<?php echo get_bloginfo('url') ?>/welcome-to-czech-speake/" class="megamenu-arrow-">チェック＆スピークの世界</a></li>
-                    <li><a href="<?php echo get_bloginfo('url') ?>/journal/" class="megamenu-arrow-">ジャーナル</a></li>
-                    <li><a href="<?php echo get_bloginfo('url') ?>/press/" class="megamenu-arrow-">メディア掲載</a></li>
-                    <li><a href="<?php echo get_bloginfo('url') ?>/stockist-list/" class="megamenu-arrow-">お取扱い店舗</a></li>
-                    <li><a href="<?php echo get_bloginfo('url') ?>/contact/" class="megamenu-arrow-">お問い合わせ</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/welcome-to-czech-speake/" class="megamenu-arrow-">Welcome to C&S</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/shop/" class="megamenu-arrow-">Shop</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/stockist-list/" class="megamenu-arrow-">Stockists</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/contact/" class="megamenu-arrow-">Contact</a></li>
                     </ul>
                 </nav>
                 <!-- /nav -->

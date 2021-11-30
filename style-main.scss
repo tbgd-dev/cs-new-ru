@@ -1068,12 +1068,17 @@
         text-align: center;
     }
     
-    .hentry.type-page .entry-header h1.entry-title {
+    .hentry.type-page .entry-header h1.entry-title,
+    .woocommerce-products-header__title.page-title {
         text-align: center;
         padding-top: 10px;
         @media (min-width: 768px) {
             padding-top: 20px;
         }
+    }
+    
+    .woocommerce-products-header .woocommerce-products-header__title:after {
+        display: none !important;
     }
     
     .site-info {
@@ -5119,6 +5124,10 @@ border-color: #ddd;}*/
         background-image: url(images/flag_eu.png);
     }
     
+    .flag-jp {
+        background-image: url(images/flag_jp.png);
+    }
+    
     @media only screen and (max-width: 1005px) {
         .cs-store {
             top: 20px;
@@ -6057,7 +6066,7 @@ border-color: #ddd;}*/
         }
     }
     /* black friday updates */
-    
+    /*
     body.home {
         .home-news,
         .home-ctas,
@@ -6137,5 +6146,5 @@ border-color: #ddd;}*/
                 display: none !important;
             }
         }
-    }
+    }*/
     /* black friday updates */

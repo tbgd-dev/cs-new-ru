@@ -15,7 +15,7 @@
 get_header(); ?>
 
 <div class="catlistjournal" style="margin-top:20px;">
-<h1 class="catlisttoggle">メディア掲載<span></span></h1>
+<h1 class="catlisttoggle">Press<span></span></h1>
 </div>
 
 <div class="container">

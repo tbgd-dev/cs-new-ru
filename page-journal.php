@@ -15,13 +15,13 @@
 get_header(); ?>
 
 <div class="catlistjournal" style="margin-top:20px;">
-    <h1 class="catlisttoggle">ジャーナル<span></span></h1>
+    <h1 class="catlisttoggle">Journal<span></span></h1>
 </div>
 
 <div class="container">
     <div class="row journal">
     <div class="col-md-12 contentpadding_exsm textcenter">
-        <p>チェック＆スピークの世界についてもっと知ってみませんか。次のジャーナルをお楽しみください。</p></div>
+        <p>Immerse yourself in the world of Czech & Speake. View our articles below.</p></div>
         <div class="col-md-12 contentpadding_exsm textcenter">
             <?php
 				  $query_args = array(
