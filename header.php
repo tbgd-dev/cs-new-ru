@@ -222,7 +222,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                     <ul id="menu">
                     <li><a href="<?php echo get_bloginfo('url') ?>/welcome-to-czech-speake/" class="megamenu-arrow-">Welcome to C&S</a></li>
-                    <li><a href="<?php echo get_bloginfo('url') ?>/shop/" class="megamenu-arrow-">Shop</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/product-category/all-fragrance/eau-de-parfum-all-fragrance/" class="megamenu-arrow-">All Fragrance</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/product-category/all-fragrance/eau-de-parfum-all-fragrance/" class="megamenu-arrow-">Bath & Body</a></li>
+                    <li><a href="<?php echo get_bloginfo('url') ?>/product-category/all-fragrance/eau-de-parfum-all-fragrance/" class="megamenu-arrow-">Home Fragrance</a></li>
                     <li><a href="<?php echo get_bloginfo('url') ?>/stockist-list/" class="megamenu-arrow-">Stockists</a></li>
                     <li><a href="<?php echo get_bloginfo('url') ?>/contact/" class="megamenu-arrow-">Contact</a></li>
                     </ul>
